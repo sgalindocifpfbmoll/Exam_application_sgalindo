@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Exam_application_sgalindo</string>
+
+    //First fragment
+    <string name="first_button_1_value">Change Text</string>
+
+    //Second Fragment
+    <string name="second_textView_1_value">Default Text</string>
+
+    //Third Fragment
+    <string name="third_button_1_value">Change Color</string>
+</resources>

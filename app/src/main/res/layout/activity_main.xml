@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/fragment_first"
+        android:name="com.example.exam_application_sgalindo.FragmentFirst"
+        android:layout_width="match_parent"
+        android:layout_height="242dp"
+        android:visibility="visible"
+        tools:layout="@layout/fragment_first" />
+
+    <fragment
+        android:id="@+id/fragment_second"
+        android:name="com.example.exam_application_sgalindo.FragmentSecond"
+        android:layout_width="match_parent"
+        android:layout_height="219dp"
+        tools:layout="@layout/fragment_second" />
+
+    <fragment
+        android:id="@+id/fragment_third"
+        android:name="com.example.exam_application_sgalindo.FragmentThird"
+        android:layout_width="match_parent"
+        android:layout_height="271dp"
+        tools:layout="@layout/fragment_third" />
+
+
+</LinearLayout>
